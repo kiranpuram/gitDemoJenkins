@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TEstTriangleApp]">
+  <parameter name="surName" value="puram"/>
+  <parameter name="foreName" value="kiran"/>
+  <test name="TriangleSuite(failed)">
+    <parameter name="surName" value="puram"/>
+    <parameter name="foreName" value="kiran"/>
+    <classes>
+      <class name="Practise_Testngg.Test_02">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Practise_Testngg.Test_02 -->
+      <class name="Practise_Testngg.Test_04">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Practise_Testngg.Test_04 -->
+      <class name="Practise_Testngg.Test_03">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Practise_Testngg.Test_03 -->
+      <class name="Practise_Testngg.Test_01">
+        <methods>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Practise_Testngg.Test_01 -->
+    </classes>
+  </test> <!-- TriangleSuite(failed) -->
+</suite> <!-- Failed suite [TEstTriangleApp] -->

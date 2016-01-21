@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Grid Suite" parallel = "none">
+  <test name = "TestTriangleApp-Grid-Firefox">
+    <classes>
+      <class name = "Practise_Testngg.SeleniumGrid"/>
+    </classes>
+  </test>
+ <!--  <test name ="TestTriangleApp-PageObj-Chrome">
+  <parameter name = "browser" value = "Chrome"/>
+    <classes>
+      <class name = "Framework.TC_PageObject"/>
+    </classes>
+  </test>-->
+</suite>

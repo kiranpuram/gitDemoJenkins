@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Grid Suite]" parallel="none">
+  <test name="TestTriangleApp-Grid-Firefox(failed)" parallel="none">
+    <classes>
+      <class name="Practise_Testngg.SeleniumGrid">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Practise_Testngg.SeleniumGrid -->
+    </classes>
+  </test> <!-- TestTriangleApp-Grid-Firefox(failed) -->
+</suite> <!-- Failed suite [Grid Suite] -->

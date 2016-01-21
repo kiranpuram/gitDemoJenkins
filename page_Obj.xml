@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Page Object Suite" parallel = "none">
+  <test name = "TestTriangleApp-PageObj-Firefox">
+  <parameter name = "browser" value = "Firefox"/>
+    <classes>
+      <class name = "Framework.TC_PageObject"/>
+    </classes>
+  </test>
+  <test name ="TestTriangleApp-PageObj-Chrome">
+  <parameter name = "browser" value = "Chrome"/>
+    <classes>
+      <class name = "Framework.TC_PageObject"/>
+    </classes>
+  </test>
+</suite>

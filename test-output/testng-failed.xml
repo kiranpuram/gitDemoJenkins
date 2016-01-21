@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Page Object Suite]" parallel="tests">
+  <parameter name="browser" value="Chrome"/>
+  <test name="TestTriangleApp-PageObj-Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="Framework.TC_PageObject">
+        <methods>
+          <include name="TestTriangleApp_TC"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Framework.TC_PageObject -->
+    </classes>
+  </test> <!-- TestTriangleApp-PageObj-Chrome(failed) -->
+  <test name="TestTriangleApp-PageObj-Firefox(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="Framework.TC_PageObject">
+        <methods>
+          <include name="TestTriangleApp_TC"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Framework.TC_PageObject -->
+    </classes>
+  </test> <!-- TestTriangleApp-PageObj-Firefox(failed) -->
+</suite> <!-- Failed suite [Page Object Suite] -->

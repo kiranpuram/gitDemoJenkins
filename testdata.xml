@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "TEstTriangleApp">
+<test name = "TriangleSuite">
+<parameter name = "foreName" value = "kiran" />
+<parameter name = "surName" value = "puram" />
+<classes>
+<class name = "Practise_Testngg.Test_01"/>
+<class name = "Practise_Testngg.Test_02"/>
+<class name = "Practise_Testngg.Test_03"/>
+<class name = "Practise_Testngg.Test_04"/>
+</classes>
+</test>
+</suite>
